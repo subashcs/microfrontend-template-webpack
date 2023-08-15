@@ -21,7 +21,6 @@ After cloning the repository, navigate to the project root and install the depen
 Run the following commands in the root directory.
 
 ```bash
-yarn
 yarn start
 ```
 

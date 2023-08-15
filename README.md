@@ -26,9 +26,9 @@ yarn start
 
 `host` is the main app using our micro-frontends and both `app2` and `app3` are independently deployed apps:
 
-- `host`: http://localhost:3001
-- `app2`: http://localhost:3002
-- `app3`: http://localhost:3003
+- `host`: Runs on http://localhost:3001 and uses React.js
+- `app2`: Runs on http://localhost:3002 and uses React.js
+- `app3`: Runs on http://localhost:3003 and uses Solid.js
 
 Check out this link below for more examples:
 

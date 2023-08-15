@@ -1,0 +1,46 @@
+# Ignore node_modules across the entire project
+node_modules/
+
+# Ignore yarn.lock files
+yarn.lock
+
+# Ignore .DS_Store files (for macOS)
+.DS_Store
+
+# Ignore logs and build artifacts
+*.log
+/build
+
+# Ignore package distribution folders
+/packages/*/dist/
+/packages/*/lib/
+
+# Ignore individual package node_modules
+/packages/*/node_modules/
+
+# Ignore npm debug log
+lerna-debug.log
+
+# Ignore development environment files
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Ignore Visual Studio Code settings
+.vscode/
+
+# Ignore IntelliJ IDEA settings
+.idea/
+
+# Ignore OS-specific files
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Ignore temporary files
+*.swp
+*.swo
+
+# Ignore Lerna's build artifacts
+/.lerna/
